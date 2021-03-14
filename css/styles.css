@@ -146,9 +146,13 @@ body {
 }
 .footer-contact-item {
   text-decoration: none;
-  font-weight: 500;
-
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact-item:hover {
+  color: var(--accent-color);
+}
+.footer-contact-item:focus {
+  color: var(--accent-color);
 }
 
 /*Портфолио*/
