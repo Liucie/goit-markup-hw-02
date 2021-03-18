@@ -35,6 +35,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+.nav-link:hover{
+  color:var(--accent-color)
+}
+
+.nav-link:focus{
+  color:var(--accent-color)
+}
 .nav-link-current {
   text-decoration: none;
   font-weight: 500;
@@ -104,9 +111,6 @@ body {
   text-transform: uppercase;
 }
 .benefits-item {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 
@@ -122,9 +126,12 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+
+  background-color: var(--button-bg-color);
 }
 .team-member {
   font-weight: 500;
+  font-size: inherit;
 }
 .team-member-position {
   color: #757575;
